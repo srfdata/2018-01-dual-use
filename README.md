@@ -3,7 +3,11 @@
 
 ## Artikel
 
-Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage der auf srf.ch veröffentlichten Artikel [über den Export von Dual-Use-Gütern](https://www.srf.ch/data) ist.
+Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage der auf srf.ch veröffentlichten Artikel [über den Export von Dual-Use-Gütern](https://www.srf.ch/data) ist. 
+
+## Vorgeschichte
+
+Bei der vorliegenden Analyse handelt es sich um eine, die bereits im Jahr 2015 erstmals durchgeführt wurde, damals mit Daten der Jahre 2012-2014. Bei der vorliegenden Version handelt es sich um diejenige, die die Jahre 2012-2017 vollumfänglich abdeckt.
 
 ### Vorprozessierung und Analyse
 

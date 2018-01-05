@@ -247,7 +247,7 @@ div.tocify {
 
 <div id="vorbemerkungen" class="section level3">
 <h3>Vorbemerkungen</h3>
-<p>Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der unter <a href="https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/">srf.ch interaktiv visualisiert</a> und unter <a href="https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/data/seco_dual_use.csv">diesem Link</a> als CSV-Datei zum Download angeboten wird.</p>
+<p>Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der unter <a href="https://www.srf.ch/news/schweiz/imsi-catcher-fuer-indonesien-ueberwachungstechnik-aus-der-schweiz-fuer-heikle-laender">srf.ch interaktiv visualisiert</a> und unter <a href="https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/data/seco_dual_use.csv">diesem Link</a> als CSV-Datei zum Download angeboten wird.</p>
 <p>SRF Data legt Wert darauf, dass die Datenvorprozessierung und -Analyse nachvollzogen und überprüft werden kann. SRF Data glaubt an das Prinzip offener Daten, aber auch offener und nachvollziehbarer Methoden. Zum anderen soll es Dritten ermöglicht werden, auf dieser Vorarbeit aufzubauen und damit weitere Auswertungen oder Applikationen zu generieren.</p>
 <p>Die Vorprozessierung und Analyse wurde im Statistikprogramm R vorgenommen. Die Endprodukte des verwendeten Scripts sind:</p>
 <ul>
@@ -482,13 +482,6 @@ checkpoint(snapshotDate = package_date,
            scanForPackages = T,
            use.knitr = F,
            R.version = r_version) # wenn eine &quot;ähnliche&quot; Version von R</code></pre>
-<pre><code>## Unable to connect to MRAN. Skipping some date validations.</code></pre>
-<pre><code>## Warning in httpsSupported(): cannot open the connection to 'https://
-## mran.microsoft.com/snapshot'
-
-## Warning in httpsSupported(): cannot open the connection to 'https://
-## mran.microsoft.com/snapshot'</code></pre>
-<pre><code>## Warning: Unable to reach MRAN root at http://mran.microsoft.com/snapshot/</code></pre>
 <pre><code>## Scanning for packages used in this project</code></pre>
 <pre><code>## rmarkdown files found and will not be parsed. Set use.knitr = TRUE</code></pre>
 <pre><code>## - Discovered 9 packages</code></pre>
@@ -1054,31 +1047,159 @@ seco_dual_use_cleaned  %&gt;%
 </thead>
 <tbody>
 <tr class="odd">
-<td>6798</td>
+<td>7971</td>
 <td align="left">GKV</td>
-<td align="left">2D002</td>
-<td align="left">2</td>
-<td align="left">D</td>
-<td align="left">002</td>
+<td align="left">3A002.H.1.B</td>
+<td align="left">3</td>
+<td align="left">A</td>
+<td align="left">002H1B</td>
 </tr>
 <tr class="even">
-<td>729</td>
+<td>7075</td>
 <td align="left">GKV</td>
-<td align="left">2B350.e7</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">350e7</td>
+<td align="left">5A002.a1</td>
+<td align="left">5</td>
+<td align="left">A</td>
+<td align="left">002a1</td>
 </tr>
 <tr class="odd">
-<td>13908</td>
+<td>5680</td>
 <td align="left">GKV</td>
-<td align="left">2B201b1</td>
+<td align="left">2B350.g4</td>
 <td align="left">2</td>
 <td align="left">B</td>
-<td align="left">201b1</td>
+<td align="left">350g4</td>
 </tr>
 <tr class="even">
-<td>7249</td>
+<td>10782</td>
+<td align="left">5.1</td>
+<td align="left">5.1</td>
+<td align="left">1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td>2558</td>
+<td align="left">GKV</td>
+<td align="left">5A001.f</td>
+<td align="left">5</td>
+<td align="left">A</td>
+<td align="left">001f</td>
+</tr>
+<tr class="even">
+<td>2174</td>
+<td align="left">GKV</td>
+<td align="left">2B350.g2</td>
+<td align="left">2</td>
+<td align="left">B</td>
+<td align="left">350g2</td>
+</tr>
+<tr class="odd">
+<td>14044</td>
+<td align="left">unbekannt</td>
+<td align="left">unbekannt</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td>7175</td>
+<td align="left">ML (GKV)</td>
+<td align="left">ML07.f1</td>
+<td align="left">7</td>
+<td align="left">f1</td>
+<td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td>9846</td>
+<td align="left">GKV</td>
+<td align="left">2B201a</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>2B001b</td>
+<td align="left">2</td>
+<td align="left">B 201a</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>4092</td>
+<td align="left">GKV</td>
+<td align="left">3A001.a10c</td>
+<td align="left">3</td>
+<td align="left">A</td>
+<td align="left">001a10c</td>
+</tr>
+<tr class="even">
+<td>2012</td>
+<td align="left">5.1</td>
+<td align="left">5.1</td>
+<td align="left">1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td>13399</td>
+<td align="left">GKV</td>
+<td align="left">2B350g3</td>
+<td align="left">2</td>
+<td align="left">B</td>
+<td align="left">350g3</td>
+</tr>
+<tr class="even">
+<td>4758</td>
+<td align="left">GKV</td>
+<td align="left">2B001.a</td>
+<td align="left">2</td>
+<td align="left">B</td>
+<td align="left">001a</td>
+</tr>
+<tr class="odd">
+<td>3134</td>
+<td align="left">ML (GKV)</td>
+<td align="left">ML13</td>
+<td align="left">13</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td>7959</td>
+<td align="left">5.1</td>
+<td align="left">5.1</td>
+<td align="left">1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td>12868</td>
+<td align="left">ML (GKV)</td>
+<td align="left">14</td>
+<td align="left">14</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td>13523</td>
+<td align="left">GKV</td>
+<td align="left">2B001a</td>
+<td align="left">2</td>
+<td align="left">B</td>
+<td align="left">001a</td>
+</tr>
+<tr class="odd">
+<td>6556</td>
+<td align="left">GKV</td>
+<td align="left">5A002.A1</td>
+<td align="left">5</td>
+<td align="left">A</td>
+<td align="left">002A1</td>
+</tr>
+<tr class="even">
+<td>3330</td>
 <td align="left">GKV</td>
 <td align="left">2B201.a</td>
 <td align="left">2</td>
@@ -1086,23 +1207,7 @@ seco_dual_use_cleaned  %&gt;%
 <td align="left">201a</td>
 </tr>
 <tr class="odd">
-<td>13111</td>
-<td align="left">GKV</td>
-<td align="left">2B001a</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">001a</td>
-</tr>
-<tr class="even">
-<td>11980</td>
-<td align="left">GKV</td>
-<td align="left">6A002a3f</td>
-<td align="left">6</td>
-<td align="left">A</td>
-<td align="left">002a3f</td>
-</tr>
-<tr class="odd">
-<td>9057</td>
+<td>8715</td>
 <td align="left">GKV</td>
 <td align="left">2B001.a</td>
 <td align="left"></td>
@@ -1118,143 +1223,15 @@ seco_dual_use_cleaned  %&gt;%
 <td align="left"></td>
 </tr>
 <tr class="odd">
-<td>7415</td>
-<td align="left">GKV</td>
-<td align="left">2B001.b</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td>2B201.a</td>
-<td align="left">2</td>
-<td align="left">B 001b</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td>7044</td>
-<td align="left">GKV</td>
-<td align="left">2B350.i4</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">350i4</td>
-</tr>
-<tr class="even">
-<td>10402</td>
-<td align="left">5.1</td>
-<td align="left">5.1</td>
-<td align="left">1</td>
+<td>2373</td>
+<td align="left">unbekannt</td>
+<td align="left">III.A1.003</td>
+<td align="left">NA</td>
 <td align="left">NA</td>
 <td align="left">NA</td>
 </tr>
-<tr class="odd">
-<td>5190</td>
-<td align="left">GKV</td>
-<td align="left">2B350.g2</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">350g2</td>
-</tr>
 <tr class="even">
-<td>6596</td>
-<td align="left">GKV</td>
-<td align="left">2B001.b</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">001b</td>
-</tr>
-<tr class="odd">
-<td>8750</td>
-<td align="left">GKV</td>
-<td align="left">7A002.a1a</td>
-<td align="left">7</td>
-<td align="left">A</td>
-<td align="left">002a1a</td>
-</tr>
-<tr class="even">
-<td>1366</td>
-<td align="left">GKV</td>
-<td align="left">6A002.c1</td>
-<td align="left">6</td>
-<td align="left">A</td>
-<td align="left">002c1</td>
-</tr>
-<tr class="odd">
-<td>13336</td>
-<td align="left">GKV</td>
-<td align="left">2B204</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">204</td>
-</tr>
-<tr class="even">
-<td>13687</td>
-<td align="left">GKV</td>
-<td align="left">2B201a</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td>2B001b</td>
-<td align="left">2</td>
-<td align="left">B 201a</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td>6902</td>
-<td align="left">GKV</td>
-<td align="left">2B001.a</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">001a</td>
-</tr>
-<tr class="odd">
-<td>10956</td>
-<td align="left">GKV</td>
-<td align="left">2D002</td>
-<td align="left">2</td>
-<td align="left">D</td>
-<td align="left">002</td>
-</tr>
-<tr class="even">
-<td>2462</td>
-<td align="left">ML (GKV)</td>
-<td align="left">ML10.a</td>
-<td align="left">10</td>
-<td align="left">a</td>
-<td align="left">NA</td>
-</tr>
-<tr class="odd">
-<td>8734</td>
-<td align="left">GKV</td>
-<td align="left">2B001.b</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td>2B201.a</td>
-<td align="left">2</td>
-<td align="left">B 001b</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td>1144</td>
-<td align="left">GKV</td>
-<td align="left">2B201.b</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">201b</td>
-</tr>
-<tr class="even">
-<td>11587</td>
+<td>10606</td>
 <td align="left">GKV</td>
 <td align="left">2B001a</td>
 <td align="left">2</td>
@@ -1262,31 +1239,15 @@ seco_dual_use_cleaned  %&gt;%
 <td align="left">001a</td>
 </tr>
 <tr class="odd">
-<td>5754</td>
+<td>11766</td>
 <td align="left">GKV</td>
-<td align="left">5A002.a.1</td>
-<td align="left">5</td>
+<td align="left">3A001a2c</td>
+<td align="left">3</td>
 <td align="left">A</td>
-<td align="left">002a1</td>
+<td align="left">001a2c</td>
 </tr>
 <tr class="even">
-<td>6216</td>
-<td align="left">5.1</td>
-<td align="left">5.1</td>
-<td align="left">1</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-</tr>
-<tr class="odd">
-<td>13027</td>
-<td align="left">GKV</td>
-<td align="left">6A005a6b2</td>
-<td align="left">6</td>
-<td align="left">A</td>
-<td align="left">005a6b2</td>
-</tr>
-<tr class="even">
-<td>947</td>
+<td>6898</td>
 <td align="left">GKV</td>
 <td align="left">2B001.b2</td>
 <td align="left"></td>
@@ -1302,102 +1263,94 @@ seco_dual_use_cleaned  %&gt;%
 <td align="left"></td>
 </tr>
 <tr class="even">
-<td>8994</td>
+<td>12265</td>
 <td align="left">GKV</td>
-<td align="left">2B350.d5</td>
+<td align="left">2B201b1</td>
 <td align="left">2</td>
 <td align="left">B</td>
-<td align="left">350d5</td>
+<td align="left">201b1</td>
 </tr>
 <tr class="odd">
-<td>2007</td>
+<td>7998</td>
 <td align="left">ML (GKV)</td>
-<td align="left">ML01</td>
-<td align="left">1</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
+<td align="left">ML03</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
-<td>8781</td>
-<td align="left">GKV</td>
-<td align="left">2B350.g</td>
-<td align="left">2</td>
-<td align="left">B</td>
-<td align="left">350g</td>
-</tr>
-<tr class="odd">
-<td>8530</td>
-<td align="left">5.1</td>
-<td align="left">5.1</td>
-<td align="left">1</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-</tr>
-<tr class="even">
-<td>376</td>
-<td align="left">5.1</td>
-<td align="left">5.1</td>
-<td align="left">1</td>
-<td align="left">NA</td>
-<td align="left">NA</td>
-</tr>
-<tr class="odd">
-<td>2236</td>
-<td align="left">GKV</td>
-<td align="left">3A225</td>
+<td>ML03</td>
 <td align="left">3</td>
+<td align="left">NA NA</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>10669</td>
+<td align="left">unbekannt</td>
+<td align="left">unbekannt</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td>13354</td>
+<td align="left">unbekannt</td>
+<td align="left">unbekannt</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="odd">
+<td>8398</td>
+<td align="left">GKV</td>
+<td align="left">1A202</td>
+<td align="left">1</td>
 <td align="left">A</td>
-<td align="left">225</td>
+<td align="left">202</td>
 </tr>
 <tr class="even">
-<td>799</td>
+<td>4050</td>
+<td align="left">GKV</td>
+<td align="left">5A001.h</td>
+<td align="left">5</td>
+<td align="left">A</td>
+<td align="left">001h</td>
+</tr>
+<tr class="odd">
+<td>1057</td>
 <td align="left">5.1</td>
 <td align="left">5.1</td>
 <td align="left">1</td>
 <td align="left">NA</td>
 <td align="left">NA</td>
 </tr>
-<tr class="odd">
-<td>12785</td>
-<td align="left">GKV</td>
-<td align="left">2B201a</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
 <tr class="even">
-<td>2B001b</td>
+<td>8798</td>
+<td align="left">GKV</td>
+<td align="left">2B201.a</td>
 <td align="left">2</td>
-<td align="left">B 201a</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left">B</td>
+<td align="left">201a</td>
 </tr>
 <tr class="odd">
-<td>7849</td>
-<td align="left">ML (GKV)</td>
-<td align="left">ML17.h</td>
-<td align="left">17</td>
-<td align="left">h</td>
-<td align="left">NA</td>
+<td>11490</td>
+<td align="left">GKV</td>
+<td align="left">6A002c1</td>
+<td align="left">6</td>
+<td align="left">A</td>
+<td align="left">002c1</td>
 </tr>
 <tr class="even">
-<td>7964</td>
-<td align="left">GKV</td>
-<td align="left">1C231</td>
-<td align="left">1</td>
-<td align="left">C</td>
-<td align="left">231</td>
-</tr>
-<tr class="odd">
-<td>3067</td>
+<td>5954</td>
 <td align="left">GKV</td>
 <td align="left">2B001.b</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>2B201.a</td>
 <td align="left">2</td>
 <td align="left">B 001b</td>
@@ -1405,29 +1358,69 @@ seco_dual_use_cleaned  %&gt;%
 <td align="left"></td>
 <td align="left"></td>
 </tr>
+<tr class="even">
+<td>9968</td>
+<td align="left">GKV</td>
+<td align="left">2B201a1</td>
+<td align="left">2</td>
+<td align="left">B</td>
+<td align="left">201a1</td>
+</tr>
 <tr class="odd">
-<td>6474</td>
-<td align="left">ML (GKV)</td>
-<td align="left">ML15.c</td>
-<td align="left">15</td>
-<td align="left">c</td>
+<td>12821</td>
+<td align="left">5.1</td>
+<td align="left">5.1</td>
+<td align="left">1</td>
+<td align="left">NA</td>
 <td align="left">NA</td>
 </tr>
 <tr class="even">
-<td>4014</td>
+<td>1046</td>
 <td align="left">GKV</td>
-<td align="left">2D002</td>
-<td align="left">2</td>
-<td align="left">D</td>
-<td align="left">002</td>
+<td align="left">2b001.b</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
-<td>8712</td>
+<td>2b201.a</td>
+<td align="left">2</td>
+<td align="left">B 001b</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>9592</td>
 <td align="left">GKV</td>
-<td align="left">5A002.a1a</td>
-<td align="left">5</td>
-<td align="left">A</td>
-<td align="left">002a1a</td>
+<td align="left">1E001</td>
+<td align="left">1</td>
+<td align="left">E</td>
+<td align="left">001</td>
+</tr>
+<tr class="odd">
+<td>4936</td>
+<td align="left">GKV</td>
+<td align="left">2B001.c1</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td>2B201.b1</td>
+<td align="left">2</td>
+<td align="left">B 001c1</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td>6041</td>
+<td align="left">5.1</td>
+<td align="left">5.1</td>
+<td align="left">1</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
 </tr>
 </tbody>
 </table>

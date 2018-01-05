@@ -26,7 +26,7 @@ r_version <- "3.4.2"
 
 ### Vorbemerkungen
 
-Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der unter [srf.ch interaktiv visualisiert](https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/) und unter [diesem Link](https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/data/seco_dual_use.csv) als CSV-Datei zum Download angeboten wird.
+Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der unter [srf.ch interaktiv visualisiert](https://www.srf.ch/news/schweiz/imsi-catcher-fuer-indonesien-ueberwachungstechnik-aus-der-schweiz-fuer-heikle-laender) und unter [diesem Link](https://www.srf.ch/static/srf-data/data/2018/seco-dual-use/data/seco_dual_use.csv) als CSV-Datei zum Download angeboten wird.
 
 SRF Data legt Wert darauf, dass die Datenvorprozessierung und -Analyse nachvollzogen und überprüft werden kann. SRF Data glaubt an das Prinzip offener Daten, aber auch offener und nachvollziehbarer Methoden. Zum anderen soll es Dritten ermöglicht werden, auf dieser Vorarbeit aufzubauen und damit weitere Auswertungen oder Applikationen zu generieren.  
 

@@ -3,7 +3,7 @@
 
 ## Artikel
 
-Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage der auf srf.ch veröffentlichten Artikel [über den Export von Dual-Use-Gütern](https://www.srf.ch/data) ist. 
+Dieses Dokument beschreibt die Vorprozessierung und explorative Analyse des Datensatzes, der Grundlage der auf srf.ch veröffentlichten Artikel [über den Export von Dual-Use-Gütern](https://www.srf.ch/news/schweiz/imsi-catcher-fuer-indonesien-ueberwachungstechnik-aus-der-schweiz-fuer-heikle-laender) ist. 
 
 ## Vorgeschichte
 
